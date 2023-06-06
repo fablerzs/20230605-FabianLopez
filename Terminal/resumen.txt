@@ -1,0 +1,5 @@
+1.-git init
+2.-mkdir
+3.-mv
+4.-touch
+5.-clear
