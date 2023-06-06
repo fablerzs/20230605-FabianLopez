@@ -1,0 +1,142 @@
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH
+$ mkdir 20230605-FabianLopez
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH
+$ cd 20230605-FabianLopez/
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez
+$ touch comandos.txt main.js index.html
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez
+$ git init
+Initialized empty Git repository in C:/Users/mauri/OneDrive/Escritorio/DH/202306
+05-FabianLopez/.git/
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (main)
+$ git add .
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (main)
+$ git commit -m "01 de FabianLopez"
+[main (root-commit) abbc98c] 01 de FabianLopez
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos.txt
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (main)
+$ git remote add origin https://github.com/fablerzs/20230605-FabianLopez
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 248 bytes | 248.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/fablerzs/20230605-FabianLopez
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (main)
+$ git branch feature01
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (main)
+$ git checkout feature01
+Switched to branch 'feature01'
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature01)
+$ mkdir Terminal Hardware
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature01)
+$ touch Terminal/resumen.txt Hardware/resumen.txt
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature01)
+$ git add .
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature01)
+$ git commit -m "02 de FabianLopez"
+[feature01 314a380] 02 de FabianLopez
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resumen.txt
+ create mode 100644 Terminal/resumen.txt
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature01)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature01)
+$ git push -u origin feature01
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 365 bytes | 365.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature01' on GitHub by visiting:
+remote:      https://github.com/fablerzs/20230605-FabianLopez/pull/new/feature0
+remote:
+To https://github.com/fablerzs/20230605-FabianLopez
+ * [new branch]      feature01 -> feature01
+branch 'feature01' set up to track 'origin/feature01'.
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature01)
+$ git branch feature02
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature01)
+$ git checkout feature02
+Switched to branch 'feature02'
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature02)
+$ code .
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature02)
+$ git status
+On branch feature02
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Hardware/resumen.txt
+        modified:   Terminal/resumen.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature02)
+$ git add .
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature02)
+$ git commit -m "03 de FabianLopez"
+[feature02 59485e6] 03 de FabianLopez
+ 2 files changed, 8 insertions(+)
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature02)
+$ git push -u origin feature02
+Enumerating objects: 11, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 522 bytes | 522.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature02' on GitHub by visiting:
+remote:      https://github.com/fablerzs/20230605-FabianLopez/pull/new/feature0
+remote:
+To https://github.com/fablerzs/20230605-FabianLopez
+ * [new branch]      feature02 -> feature02
+branch 'feature02' set up to track 'origin/feature02'.
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (feature02)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+mauri@DESKTOP-4HSI3FV MINGW64 ~/OneDrive/Escritorio/DH/20230605-FabianLopez (main)
+$ mv comandos.txt comandosUtilizados.txt
